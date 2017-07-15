@@ -1,0 +1,74 @@
+Q-1)	num=float(input())
+	if num<0:
+		print("The number is negative")
+	elif num==0:
+		print("The number is zero")
+	else:
+		print("The number is positive")
+
+
+Q-2)	num=int(input())
+	if num%2==0:
+		print("The number is even")
+	else:
+		print("The number is odd")
+
+
+Q-3)	word=str(input())
+	if word in ('a', 'e', 'i', 'o', 'u'):
+		print("The word is a vowel")
+	else:
+		print("The word is consonant")
+
+
+Q-4)	ch=input()
+	if((ch>='a' and ch<='z') or (ch>='A' and ch<='Z')):
+		print(ch, "is an alphabet.")
+	else:
+		print(ch, "is not an alphabet.")
+
+
+Q-5)	num1=float(input())
+	num2=float(input())
+	num3=float(input())
+	if (num1>num2) and (num1>num3):
+		print(num1, "is largest.")
+	elif (num2>num1) and (num2>num3):
+		print(num2, "is largest.")
+	elif (num3>num2) and (num3>num1):
+		print(num3, "is largest.")
+
+
+Q-6)	year=int(input())
+	if year%400==0:
+		print(year, "is a leap year")
+	elif year%100==0:
+		print(year, "is not a leap year")
+	elif year%4==0:
+		print(year, "is a leap year")
+	else:
+		print(year, "is not a leap year")
+
+
+Q-7)	for i in range(5):
+    		print("Hello")
+
+
+Q-8)	n=int(input())
+	print("The sum is",n*(n+1)/2)
+
+
+Q-9)	n=int(input())
+	sum=0
+	for i in range(0,n,1):
+		sum=sum+i
+		print(sum)
+
+
+Q-10)	Number = int(input())
+	Count = 0
+	while(Number > 0):
+    		Number = Number // 10
+    		Count = Count + 1
+ 
+	print("Number of Digits in a Given Number:", Count)
